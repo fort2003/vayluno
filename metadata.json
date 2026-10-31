@@ -1,0 +1,6 @@
+{
+  "name": "VAYLUNO - Agence d'Accompagnement Digital",
+  "description": "Site vitrine officiel de la marque VAYLUNO. Services d'accompagnement digital : Assistant Virtuel et Community Manager pour commerçants et entrepreneurs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

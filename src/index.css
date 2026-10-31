@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --navy-midnight: #081426;
+    --navy-royal: #142b4d;
+    --gold-champagne: #c9ad78;
+    --gold-champagne-light: #dfc99c;
+    --gold-champagne-dark: #a98d58;
+    --soft-white: #f5f6fa;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #081426;
+    color: #f5f6fa;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Custom subtle luxury effects */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #f5f6fa 0%, #c9ad78 60%, #dfc99c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border-glow {
+  box-shadow: 0 0 25px -5px rgba(201, 173, 120, 0.15);
+}
+
+.subtle-grid-bg {
+  background-image: radial-gradient(rgba(201, 173, 120, 0.07) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
